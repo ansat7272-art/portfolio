@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Designer | 2D Animator</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #080a0e;
+    color: #e8e4dc;
+    font-family: 'Syne', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .grid-bg {
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(0,255,170,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,255,170,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .noise {
+    position: fixed;
+    inset: 0;
+    opacity: 0.03;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 64px;
+  }
+
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    color: #00ffaa;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    animation: fadeUp 0.6s ease both;
+  }
+
+  .tag::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #00ffaa;
+    border-radius: 50%;
+    animation: pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.7); }
+  }
+
+  h1 {
+    font-size: clamp(36px, 7vw, 64px);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+    animation: fadeUp 0.6s 0.1s ease both;
+  }
+
+  h1 span {
+    color: #00ffaa;
+  }
+
+  .subtitle {
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    color: #888;
+    letter-spacing: 0.08em;
+    margin-bottom: 40px;
+    animation: fadeUp 0.6s 0.15s ease both;
+  }
+
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, #00ffaa33, transparent);
+    margin-bottom: 40px;
+    animation: fadeUp 0.6s 0.2s ease both;
+  }
+
+  .bio {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #b8b4ac;
+    margin-bottom: 48px;
+    animation: fadeUp 0.6s 0.25s ease both;
+  }
+
+  .bio strong {
+    color: #e8e4dc;
+    font-weight: 700;
+  }
+
+  .section-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: #00ffaa;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    animation: fadeUp 0.6s 0.3s ease both;
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 48px;
+    animation: fadeUp 0.6s 0.35s ease both;
+  }
+
+  .service-card {
+    background: rgba(255,255,255,0.03);
+    border: 0.5px solid rgba(0,255,170,0.15);
+    border-radius: 10px;
+    padding: 16px 18px;
+    transition: border-color 0.25s, background 0.25s, transform 0.2s;
+    cursor: default;
+  }
+
+  .service-card:hover {
+    border-color: rgba(0,255,170,0.5);
+    background: rgba(0,255,170,0.05);
+    transform: translateY(-2px);
+  }
+
+  .service-icon {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .service-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #e8e4dc;
+    margin-bottom: 5px;
+    letter-spacing: 0.01em;
+  }
+
+  .service-desc {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.5;
+    font-family: 'Space Mono', monospace;
+  }
+
+  .tools-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 48px;
+    animation: fadeUp 0.6s 0.4s ease both;
+  }
+
+  .tool-tag {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    padding: 5px 12px;
+    border: 0.5px solid rgba(0,255,170,0.3);
+    border-radius: 100px;
+    color: #00ffaa;
+    letter-spacing: 0.05em;
+  }
+
+  .cta-block {
+    background: rgba(0,255,170,0.06);
+    border: 0.5px solid rgba(0,255,170,0.25);
+    border-radius: 14px;
+    padding: 28px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 32px;
+    animation: fadeUp 0.6s 0.45s ease both;
+  }
+
+  .cta-text {
+    font-size: 15px;
+    color: #b8b4ac;
+    line-height: 1.5;
+  }
+
+  .cta-text strong {
+    display: block;
+    font-size: 18px;
+    color: #e8e4dc;
+    margin-bottom: 4px;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 22px;
+    background: #00ffaa;
+    color: #080a0e;
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: opacity 0.2s, transform 0.15s;
+    letter-spacing: 0.03em;
+  }
+
+  .btn:hover {
+    opacity: 0.88;
+    transform: scale(0.98);
+  }
+
+  .links-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    animation: fadeUp 0.6s 0.5s ease both;
+  }
+
+  .link-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 16px;
+    background: rgba(255,255,255,0.04);
+    border: 0.5px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    color: #888;
+    text-decoration: none;
+    transition: color 0.2s, border-color 0.2s, background 0.2s;
+    cursor: pointer;
+  }
+
+  .link-pill:hover {
+    color: #e8e4dc;
+    border-color: rgba(255,255,255,0.25);
+    background: rgba(255,255,255,0.07);
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (max-width: 520px) {
+    .services { grid-template-columns: 1fr; }
+    .cta-block { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<div class="grid-bg"></div>
+<div class="noise"></div>
+
+<div class="container">
+
+  <div class="tag">Доступен для проектов</div>
+
+  <h1>AI Designer<br>&amp; <span>2D Animator</span></h1>
+  <div class="subtitle">Stable Diffusion · ControlNet · LoRA · Adobe Suite</div>
+  <div class="divider"></div>
+
+  <p class="bio">
+    Я не просто использую нейросети — я <strong>приручаю их алгоритмы</strong>, чтобы создавать визуальный контент, который закрывает задачи бизнеса быстро, стильно и точно в цель. Гибрид технологий ИИ и ручной доработки. Уважаю дедлайны, всегда на связи.
+  </p>
+
+  <div class="section-label">Что я делаю</div>
+
+  <div class="services">
+    <div class="service-card">
+      <span class="service-icon">🎯</span>
+      <div class="service-title">AI-контент под ключ</div>
+      <div class="service-desc">Концепция → промпт-инжиниринг → апскейл → финал</div>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">🧬</span>
+      <div class="service-title">Персонажи и миры</div>
+      <div class="service-desc">Консистентные герои для игр, брендов, сторителлинга</div>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">🎞️</span>
+      <div class="service-title">2D Анимация</div>
+      <div class="service-desc">After Effects, Illustrator, TVPaint — ручная и AI</div>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">🎮</span>
+      <div class="service-title">GameDev Assets</div>
+      <div class="service-desc">Иконки, UI, текстуры, концепты окружения</div>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">📷</span>
+      <div class="service-title">Фото- и стилизация</div>
+      <div class="service-desc">Гиперреализм, 3D, киберпанк, живопись</div>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">🎛️</span>
+      <div class="service-title">ControlNet & LoRA</div>
+      <div class="service-desc">Полный контроль поз, композиций, анатомии</div>
+    </div>
+  </div>
+
+  <div class="section-label">Инструменты</div>
+  <div class="tools-row">
+    <span class="tool-tag">Stable Diffusion</span>
+    <span class="tool-tag">Nano Banana 2</span>
+    <span class="tool-tag">Photoshop</span>
+    <span class="tool-tag">After Effects</span>
+    <span class="tool-tag">Illustrator</span>
+    <span class="tool-tag">TVPaint</span>
+    <span class="tool-tag">ControlNet</span>
+    <span class="tool-tag">LoRA</span>
+  </div>
+
+  <div class="cta-block">
+    <div class="cta-text">
+      <strong>Обсудим ваш проект?</strong>
+      Пишите — отвечаю оперативно. Работаю с проектами любой сложности.
+    </div>
+    <a class="btn" href="https://t.me/g_wqn_02" target="_blank">→ Написать</a>
+  </div>
+
+  <div class="links-row">
+    <a class="link-pill" href="https://www.behance.net/ansatdusenbay" target="_blank">
+      ↗ Behance
+    </a>
+    <a class="link-pill" href="https://drive.google.com/drive/folders/16bxDU_Kgvv2D-b55TaJ6Ahs8x92SveYL?usp=sharing" target="_blank">
+      ↗ Google Drive Портфолио
+    </a>
+    <a class="link-pill" href="https://t.me/g_wqn_02" target="_blank">
+      ↗ Telegram @g_wqn_02
+    </a>
+  </div>
+
+</div>
+</body>
+</html>
