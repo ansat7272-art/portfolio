@@ -1,0 +1,4 @@
+data/raw/
+data/*.log
+output/video_alpha/
+__pycache__/

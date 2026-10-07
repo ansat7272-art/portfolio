@@ -1,0 +1,902 @@
+[
+ {
+  "slug": "Almaty",
+  "ru": "Алматы",
+  "kk": "Алматы",
+  "en": "Almaty",
+  "pop": 2332400,
+  "lon": 76.9457275,
+  "lat": 43.2363924,
+  "region": "KZ-75"
+ },
+ {
+  "slug": "Shymkent",
+  "ru": "Шымкент",
+  "kk": "Шымкент",
+  "en": "Shymkent",
+  "pop": 1222055,
+  "lon": 69.5883282,
+  "lat": 42.3146962,
+  "region": "KZ-79"
+ },
+ {
+  "slug": "Astana",
+  "ru": "Астана",
+  "kk": "Астана",
+  "en": "Astana",
+  "pop": 814400,
+  "lon": 71.4304708,
+  "lat": 51.1282804,
+  "region": "KZ-71"
+ },
+ {
+  "slug": "Aktobe",
+  "ru": "Актобе",
+  "kk": "Ақтөбе",
+  "en": "Aktobe",
+  "pop": 570452,
+  "lon": 57.2298129,
+  "lat": 50.2836938,
+  "region": "KZ-15"
+ },
+ {
+  "slug": "Karaganda",
+  "ru": "Караганда",
+  "kk": "Қарағанды",
+  "en": "Karaganda",
+  "pop": 520486,
+  "lon": 73.1026622,
+  "lat": 49.8161282,
+  "region": "KZ-35"
+ },
+ {
+  "slug": "Taraz",
+  "ru": "Тараз",
+  "kk": "Тараз",
+  "en": "Taraz",
+  "pop": 380200,
+  "lon": 71.3769302,
+  "lat": 42.9015945,
+  "region": "KZ-31"
+ },
+ {
+  "slug": "Ust-Kamenogorsk",
+  "ru": "Усть-Каменогорск",
+  "kk": "Өскемен",
+  "en": "Oskemen",
+  "pop": 354770,
+  "lon": 82.6274791,
+  "lat": 49.9484438,
+  "region": "KZ-63"
+ },
+ {
+  "slug": "Pavlodar",
+  "ru": "Павлодар",
+  "kk": "Павлодар",
+  "en": "Pavlodar",
+  "pop": 334830,
+  "lon": 76.9455035,
+  "lat": 52.2857573,
+  "region": "KZ-55"
+ },
+ {
+  "slug": "Atyrau",
+  "ru": "Атырау",
+  "kk": "Атырау",
+  "en": "Atyrau",
+  "pop": 323295,
+  "lon": 51.9138976,
+  "lat": 47.1067183,
+  "region": "KZ-23"
+ },
+ {
+  "slug": "Semey",
+  "ru": "Семей",
+  "kk": "Семей",
+  "en": "Semey",
+  "pop": 310456,
+  "lon": 80.2496637,
+  "lat": 50.404377,
+  "region": "KZ-10"
+ },
+ {
+  "slug": "Aktau",
+  "ru": "Актау",
+  "kk": "Ақтау",
+  "en": "Aktau",
+  "pop": 273830,
+  "lon": 51.168222,
+  "lat": 43.6353364,
+  "region": "KZ-47"
+ },
+ {
+  "slug": "Kostanay",
+  "ru": "Костанай",
+  "kk": "Қостанай",
+  "en": "Kostanay",
+  "pop": 264446,
+  "lon": 63.632607,
+  "lat": 53.2146604,
+  "region": "KZ-39"
+ },
+ {
+  "slug": "Uralsk",
+  "ru": "Уральск",
+  "kk": "Орал",
+  "en": "Oral",
+  "pop": 256960,
+  "lon": 51.3707863,
+  "lat": 51.2040697,
+  "region": "KZ-27"
+ },
+ {
+  "slug": "Turkestan",
+  "ru": "Туркестан",
+  "kk": "Түркістан",
+  "en": "Turkistan",
+  "pop": 228003,
+  "lon": 68.2703698,
+  "lat": 43.3019457,
+  "region": "KZ-61"
+ },
+ {
+  "slug": "Petropavlovsk",
+  "ru": "Петропавловск",
+  "kk": "Петропавл",
+  "en": "Petropavl",
+  "pop": 222703,
+  "lon": 69.1334984,
+  "lat": 54.8668104,
+  "region": "KZ-59"
+ },
+ {
+  "slug": "Kyzylorda",
+  "ru": "Кызылорда",
+  "kk": "Қызылорда",
+  "en": "Kyzylorda",
+  "pop": 206719,
+  "lon": 65.5036151,
+  "lat": 44.8426778,
+  "region": "KZ-43"
+ },
+ {
+  "slug": "Temirtau",
+  "ru": "Темиртау",
+  "kk": "Теміртау",
+  "en": "Temirtau",
+  "pop": 181197,
+  "lon": 72.9535681,
+  "lat": 50.0587825,
+  "region": "KZ-35"
+ },
+ {
+  "slug": "Taldykorgan",
+  "ru": "Талдыкорган",
+  "kk": "Талдықорған",
+  "en": "Taldykorgan",
+  "pop": 169462,
+  "lon": 78.3820494,
+  "lat": 45.0177188,
+  "region": "KZ-33"
+ },
+ {
+  "slug": "Kokshetau",
+  "ru": "Кокшетау",
+  "kk": "Көкшетау",
+  "en": "Kokshetau",
+  "pop": 146933,
+  "lon": 69.3814676,
+  "lat": 53.2852054,
+  "region": "KZ-11"
+ },
+ {
+  "slug": "Ekibastuz",
+  "ru": "Экибастуз",
+  "kk": "Екібастұз",
+  "en": "Ekibastuz",
+  "pop": 128551,
+  "lon": 75.3288511,
+  "lat": 51.7275817,
+  "region": "KZ-55"
+ },
+ {
+  "slug": "Rudnyy",
+  "ru": "Рудный",
+  "kk": "Рудный",
+  "en": "Rudny",
+  "pop": 111908,
+  "lon": 63.133488,
+  "lat": 52.964458,
+  "region": "KZ-39"
+ },
+ {
+  "slug": "Zhezkazgan",
+  "ru": "Жезказган",
+  "kk": "Жезқазған",
+  "en": "Jezqazğan",
+  "pop": 101900,
+  "lon": 67.7145674,
+  "lat": 47.80434,
+  "region": "KZ-62"
+ },
+ {
+  "slug": "Balkhash",
+  "ru": "Балхаш",
+  "kk": "Балқаш",
+  "en": "Balqaş",
+  "pop": 77000,
+  "lon": 74.9773285,
+  "lat": 46.8433208,
+  "region": "KZ-35"
+ },
+ {
+  "slug": "Zhanaozen",
+  "ru": "Жанаозен",
+  "kk": "Жаңаөзен",
+  "en": "Zhanaozen",
+  "pop": 75604,
+  "lon": 52.8556219,
+  "lat": 43.3381034,
+  "region": "KZ-47"
+ },
+ {
+  "slug": "Kentau",
+  "ru": "Кентау",
+  "kk": "Кентау",
+  "en": "Kentau",
+  "pop": 74659,
+  "lon": 68.4996044,
+  "lat": 43.5165919,
+  "region": "KZ-61"
+ },
+ {
+  "slug": "Satpaev",
+  "ru": "Сатпаев",
+  "kk": "Сәтбаев",
+  "en": "Satbayev",
+  "pop": 68740,
+  "lon": 67.530579,
+  "lat": 47.904949,
+  "region": "KZ-62"
+ },
+ {
+  "slug": "Kulsary",
+  "ru": "Кульсары",
+  "kk": "Құлсары",
+  "en": "Qulsarı",
+  "pop": 66580,
+  "lon": 54.0129176,
+  "lat": 46.9621483,
+  "region": "KZ-23"
+ },
+ {
+  "slug": "Kaskelen",
+  "ru": "Каскелен",
+  "kk": "Қаскелең",
+  "en": "Qaskelen",
+  "pop": 64151,
+  "lon": 76.6303854,
+  "lat": 43.1976867,
+  "region": "KZ-19"
+ },
+ {
+  "slug": "Talgar",
+  "ru": "Талгар",
+  "kk": "Талғар",
+  "en": "Talgar",
+  "pop": 63883,
+  "lon": 77.2394726,
+  "lat": 43.302721,
+  "region": "KZ-19"
+ },
+ {
+  "slug": "Saryagash",
+  "ru": "Сарыагаш",
+  "kk": "Сарыағаш",
+  "en": "Sarıağaş",
+  "pop": 62215,
+  "lon": 69.1705119,
+  "lat": 41.4673309,
+  "region": "KZ-61"
+ },
+ {
+  "slug": "Konaev",
+  "ru": "Конаев",
+  "kk": "Қонаев",
+  "en": "Qonaev",
+  "pop": 56436,
+  "lon": 77.0614587,
+  "lat": 43.855174,
+  "region": "KZ-19"
+ },
+ {
+  "slug": "Kosshy",
+  "ru": "Косшы",
+  "kk": "Қосшы",
+  "en": "Kosshy",
+  "pop": 55160,
+  "lon": 71.354946,
+  "lat": 50.9754092,
+  "region": "KZ-11"
+ },
+ {
+  "slug": "Zharkent",
+  "ru": "Жаркент",
+  "kk": "Жаркент",
+  "en": "Zharkent",
+  "pop": 53144,
+  "lon": 80.002739,
+  "lat": 44.165665,
+  "region": "KZ-33"
+ },
+ {
+  "slug": "Arys",
+  "ru": "Арыс",
+  "kk": "Арыс",
+  "en": "Arys",
+  "pop": 52123,
+  "lon": 68.8134889,
+  "lat": 42.4324695,
+  "region": "KZ-61"
+ },
+ {
+  "slug": "Aksu",
+  "ru": "Аксу",
+  "kk": "Ақсу",
+  "en": "Aksu",
+  "pop": 51728,
+  "lon": 76.9341133,
+  "lat": 52.0354244,
+  "region": "KZ-55"
+ },
+ {
+  "slug": "Stepnogorsk",
+  "ru": "Степногорск",
+  "kk": "Степногорск",
+  "en": "Stepnogorsk",
+  "pop": 49116,
+  "lon": 71.880493,
+  "lat": 52.346371,
+  "region": "KZ-11"
+ },
+ {
+  "slug": "Ridder",
+  "ru": "Риддер",
+  "kk": "Риддер",
+  "en": "Ridder",
+  "pop": 48008,
+  "lon": 83.506157,
+  "lat": 50.338932,
+  "region": "KZ-63"
+ },
+ {
+  "slug": "Shchuchinsk",
+  "ru": "Щучинск",
+  "kk": "Щучинск",
+  "en": "Shchuchinsk",
+  "pop": 46744,
+  "lon": 70.1857634,
+  "lat": 52.9387457,
+  "region": "KZ-11"
+ },
+ {
+  "slug": "Shu",
+  "ru": "Шу",
+  "kk": "Шу",
+  "en": "Şu",
+  "pop": 45531,
+  "lon": 73.76075,
+  "lat": 43.608765,
+  "region": "KZ-31"
+ },
+ {
+  "slug": "Zhetysay",
+  "ru": "Жетысай",
+  "kk": "Жетісай",
+  "en": "Jetisay",
+  "pop": 44105,
+  "lon": 68.324677,
+  "lat": 40.777134,
+  "region": "KZ-61"
+ },
+ {
+  "slug": "Ayagoz",
+  "ru": "Аягоз",
+  "kk": "Аягөз",
+  "en": "Ayagöz",
+  "pop": 42010,
+  "lon": 80.4365994,
+  "lat": 47.9651211,
+  "region": "KZ-10"
+ },
+ {
+  "slug": "Esik",
+  "ru": "Есик",
+  "kk": "Есік",
+  "en": "Esik",
+  "pop": 41517,
+  "lon": 77.4640871,
+  "lat": 43.353255,
+  "region": "KZ-19"
+ },
+ {
+  "slug": "Shakhtinsk",
+  "ru": "Шахтинск",
+  "kk": "Шахтинск",
+  "en": "Shahtinsk",
+  "pop": 38961,
+  "lon": 72.5948421,
+  "lat": 49.7056642,
+  "region": "KZ-35"
+ },
+ {
+  "slug": "Aksay",
+  "ru": "Аксай",
+  "kk": "Ақсай",
+  "en": "Aksay",
+  "pop": 38386,
+  "lon": 53.011478,
+  "lat": 51.173893,
+  "region": "KZ-27"
+ },
+ {
+  "slug": "Aral",
+  "ru": "Арал",
+  "kk": "Арал",
+  "en": "Aral",
+  "pop": 37183,
+  "lon": 61.661221,
+  "lat": 46.797985,
+  "region": "KZ-43"
+ },
+ {
+  "slug": "Altay",
+  "ru": "Алтай",
+  "kk": "Алтай",
+  "en": "Altai",
+  "pop": 35746,
+  "lon": 84.275146,
+  "lat": 49.724243,
+  "region": "KZ-63"
+ },
+ {
+  "slug": "Kandyagash",
+  "ru": "Кандыагаш",
+  "kk": "Қандыағаш",
+  "en": "Qandyağaş",
+  "pop": 35699,
+  "lon": 57.4224647,
+  "lat": 49.4718361,
+  "region": "KZ-15"
+ },
+ {
+  "slug": "Zhitikara",
+  "ru": "Житикара",
+  "kk": "Жітіқара",
+  "en": "Jitiqara",
+  "pop": 35298,
+  "lon": 61.2047527,
+  "lat": 52.1905261,
+  "region": "KZ-39"
+ },
+ {
+  "slug": "Saran",
+  "ru": "Сарань",
+  "kk": "Саран",
+  "en": "Saran",
+  "pop": 34507,
+  "lon": 72.8285112,
+  "lat": 49.8017081,
+  "region": "KZ-35"
+ },
+ {
+  "slug": "Baykonur",
+  "ru": "Байконур",
+  "kk": "Байқоңыр",
+  "en": "Baikonur",
+  "pop": 33817,
+  "lon": 63.3209201,
+  "lat": 45.6321977,
+  "region": "KZ-43"
+ },
+ {
+  "slug": "Shardara",
+  "ru": "Шардара",
+  "kk": "Шардара",
+  "en": "Şardara",
+  "pop": 32107,
+  "lon": 67.975266,
+  "lat": 41.255856,
+  "region": "KZ-61"
+ },
+ {
+  "slug": "Atbasar",
+  "ru": "Атбасар",
+  "kk": "Атбасар",
+  "en": "Atbasar",
+  "pop": 31434,
+  "lon": 68.3573356,
+  "lat": 51.8097369,
+  "region": "KZ-11"
+ },
+ {
+  "slug": "Lisakovsk",
+  "ru": "Лисаковск",
+  "kk": "Лисаков",
+  "en": "Lisakovsk",
+  "pop": 31178,
+  "lon": 62.489201,
+  "lat": 52.545864,
+  "region": "KZ-39"
+ },
+ {
+  "slug": "Tekeli",
+  "ru": "Текели",
+  "kk": "Текелі",
+  "en": "Tekeli",
+  "pop": 30179,
+  "lon": 78.7629423,
+  "lat": 44.8615202,
+  "region": "KZ-33"
+ },
+ {
+  "slug": "Tobyl",
+  "ru": "Тобыл",
+  "kk": "Тобыл",
+  "en": "Tobyl",
+  "pop": 28586,
+  "lon": 63.70311,
+  "lat": 53.207062,
+  "region": "KZ-39"
+ },
+ {
+  "slug": "Arkalyk",
+  "ru": "Аркалык",
+  "kk": "Арқалық",
+  "en": "Arkalyk",
+  "pop": 28334,
+  "lon": 66.914993,
+  "lat": 50.253281,
+  "region": "KZ-39"
+ },
+ {
+  "slug": "Shalkar",
+  "ru": "Шалкар",
+  "kk": "Шалқар",
+  "en": "Şalqar",
+  "pop": 28088,
+  "lon": 59.6159216,
+  "lat": 47.8273018,
+  "region": "KZ-15"
+ },
+ {
+  "slug": "Karatau",
+  "ru": "Каратау",
+  "kk": "Қаратау",
+  "en": "Qaratau",
+  "pop": 27000,
+  "lon": 70.46489,
+  "lat": 43.176197,
+  "region": "KZ-31"
+ },
+ {
+  "slug": "Zhanatas",
+  "ru": "Жанатас",
+  "kk": "Жаңатас",
+  "en": null,
+  "pop": 25693,
+  "lon": 69.7265539,
+  "lat": 43.5567547,
+  "region": "KZ-31"
+ },
+ {
+  "slug": "Abay",
+  "ru": "Абай",
+  "kk": "Абай",
+  "en": "Abay",
+  "pop": 25550,
+  "lon": 72.8722067,
+  "lat": 49.6299017,
+  "region": "KZ-35"
+ },
+ {
+  "slug": "Lenger",
+  "ru": "Ленгер",
+  "kk": "Леңгір",
+  "en": "Leñgir",
+  "pop": 25300,
+  "lon": 69.8873166,
+  "lat": 42.182169,
+  "region": "KZ-61"
+ },
+ {
+  "slug": "Khromtau",
+  "ru": "Хромтау",
+  "kk": "Хромтау",
+  "en": "Hromtau",
+  "pop": 24700,
+  "lon": 58.4326684,
+  "lat": 50.2578229,
+  "region": "KZ-15"
+ },
+ {
+  "slug": "Alga",
+  "ru": "Алга",
+  "kk": "Алға",
+  "en": "Alğa",
+  "pop": 22798,
+  "lon": 57.330296,
+  "lat": 49.896259,
+  "region": "KZ-15"
+ },
+ {
+  "slug": "Usharal",
+  "ru": "Ушарал",
+  "kk": "Үшарал",
+  "en": "Usharal",
+  "pop": 21188,
+  "lon": 80.952568,
+  "lat": 46.176125,
+  "region": "KZ-33"
+ },
+ {
+  "slug": "Alatau",
+  "ru": "Алатау",
+  "kk": "Алатау",
+  "en": "Alatau",
+  "pop": 20418,
+  "lon": 77.1079737,
+  "lat": 43.6739054,
+  "region": "KZ-19"
+ },
+ {
+  "slug": "Ushtobe",
+  "ru": "Уштобе",
+  "kk": "Үштөбе",
+  "en": "Ushtobe",
+  "pop": 19243,
+  "lon": 77.9838119,
+  "lat": 45.2513771,
+  "region": "KZ-33"
+ },
+ {
+  "slug": "Zaysan",
+  "ru": "Зайсан",
+  "kk": "Зайсан",
+  "en": "Zaysan",
+  "pop": 18422,
+  "lon": 84.8718159,
+  "lat": 47.4672312,
+  "region": "KZ-63"
+ },
+ {
+  "slug": "Shemonaikha",
+  "ru": "Шемонаиха",
+  "kk": "Шемонаиха",
+  "en": "Şemonaïxa",
+  "pop": 18365,
+  "lon": 81.9155467,
+  "lat": 50.6287241,
+  "region": "KZ-63"
+ },
+ {
+  "slug": "Makinsk",
+  "ru": "Макинск",
+  "kk": "Макинск",
+  "en": "Makinsk",
+  "pop": 18098,
+  "lon": 70.418213,
+  "lat": 52.63287,
+  "region": "KZ-11"
+ },
+ {
+  "slug": "Sarkan",
+  "ru": "Саркан",
+  "kk": "Сарқан",
+  "en": "Sarqan",
+  "pop": 17939,
+  "lon": 79.9155159,
+  "lat": 45.4109229,
+  "region": "KZ-33"
+ },
+ {
+  "slug": "Akkol",
+  "ru": "Акколь",
+  "kk": "Ақкөл",
+  "en": "Aqköl",
+  "pop": 16017,
+  "lon": 70.9560123,
+  "lat": 51.9956724,
+  "region": "KZ-11"
+ },
+ {
+  "slug": "Tayynsha",
+  "ru": "Тайынша",
+  "kk": "Тайынша",
+  "en": "Taiynsha",
+  "pop": 13037,
+  "lon": 69.761436,
+  "lat": 53.847736,
+  "region": "KZ-59"
+ },
+ {
+  "slug": "Emba",
+  "ru": "Эмба",
+  "kk": "Ембі",
+  "en": "Embi",
+  "pop": 11720,
+  "lon": 58.1453735,
+  "lat": 48.8337558,
+  "region": "KZ-15"
+ },
+ {
+  "slug": "Esil",
+  "ru": "Есиль",
+  "kk": "Есіл",
+  "en": "Esil",
+  "pop": 11484,
+  "lon": 66.404878,
+  "lat": 51.9607263,
+  "region": "KZ-11"
+ },
+ {
+  "slug": "Ereymentau",
+  "ru": "Ерейментау",
+  "kk": "Ерейментау",
+  "en": "Ereymentaw",
+  "pop": 11200,
+  "lon": 73.103348,
+  "lat": 51.619881,
+  "region": "KZ-11"
+ },
+ {
+  "slug": "Priozersk",
+  "ru": "Приозёрск",
+  "kk": "Приозёрск",
+  "en": "Priozersk",
+  "pop": 11153,
+  "lon": 73.6925172,
+  "lat": 46.0308244,
+  "region": "KZ-35"
+ },
+ {
+  "slug": "Kurchatov",
+  "ru": "Курчатов",
+  "kk": "Курчатов",
+  "en": "Kurchatov",
+  "pop": 10348,
+  "lon": 78.5486736,
+  "lat": 50.7565343,
+  "region": "KZ-10"
+ },
+ {
+  "slug": "Fort-Shevchenko",
+  "ru": "Форт-Шевченко",
+  "kk": "Форт-Шевченко",
+  "en": "Fort-Şevtşenko",
+  "pop": 8778,
+  "lon": 50.261929,
+  "lat": 44.508556,
+  "region": "KZ-47"
+ },
+ {
+  "slug": "Karkaralinsk",
+  "ru": "Каркаралинск",
+  "kk": "Қарқаралы",
+  "en": "Qarqaraly",
+  "pop": 8764,
+  "lon": 75.4704514,
+  "lat": 49.4124087,
+  "region": "KZ-35"
+ },
+ {
+  "slug": "Bulaevo",
+  "ru": "Булаево",
+  "kk": "Булаев",
+  "en": "Bulaev",
+  "pop": 8550,
+  "lon": 70.447189,
+  "lat": 54.896652,
+  "region": "KZ-59"
+ },
+ {
+  "slug": "Karazhal",
+  "ru": "Каражал",
+  "kk": "Қаражал",
+  "en": "Qarajal",
+  "pop": 8180,
+  "lon": 70.7936243,
+  "lat": 48.0045008,
+  "region": "KZ-62"
+ },
+ {
+  "slug": "Sergeevka",
+  "ru": "Сергеевка",
+  "kk": "Сергеевка",
+  "en": "Sergeyevka",
+  "pop": 8112,
+  "lon": 67.415863,
+  "lat": 53.880951,
+  "region": "KZ-59"
+ },
+ {
+  "slug": "Shar",
+  "ru": "Шар",
+  "kk": "Шар",
+  "en": "Charsk",
+  "pop": 8000,
+  "lon": 81.050629,
+  "lat": 49.583221,
+  "region": "KZ-10"
+ },
+ {
+  "slug": "Kazaly",
+  "ru": "Казалы",
+  "kk": "Қазалы",
+  "en": "Qazaly",
+  "pop": 7462,
+  "lon": 62.101181,
+  "lat": 45.76255,
+  "region": "KZ-43"
+ },
+ {
+  "slug": "Kenesary",
+  "ru": "Кенесары",
+  "kk": "Кенесары",
+  "en": "Kenesary",
+  "pop": 7097,
+  "lon": 66.3138516,
+  "lat": 51.0990849,
+  "region": "KZ-11"
+ },
+ {
+  "slug": "Serebryansk",
+  "ru": "Серебрянск",
+  "kk": "Серебрянск",
+  "en": "Serebriansk",
+  "pop": 6989,
+  "lon": 83.297089,
+  "lat": 49.684608,
+  "region": "KZ-63"
+ },
+ {
+  "slug": "Mamlyutka",
+  "ru": "Мамлютка",
+  "kk": "Мәмлүт",
+  "en": "Mamlyut",
+  "pop": 6944,
+  "lon": 68.5386509,
+  "lat": 54.9376951,
+  "region": "KZ-59"
+ },
+ {
+  "slug": "Stepnyak",
+  "ru": "Степняк",
+  "kk": "Степняк",
+  "en": "Stepnyak",
+  "pop": 4212,
+  "lon": 70.7869386,
+  "lat": 52.8312787,
+  "region": "KZ-11"
+ },
+ {
+  "slug": "Temir",
+  "ru": "Темир",
+  "kk": "Темір",
+  "en": "Temir",
+  "pop": 2210,
+  "lon": 57.1259849,
+  "lat": 49.1425746,
+  "region": "KZ-15"
+ },
+ {
+  "slug": "Zhem",
+  "ru": "Жем",
+  "kk": "Жем",
+  "en": "Jem",
+  "pop": 1218,
+  "lon": 58.0739445,
+  "lat": 48.774899,
+  "region": "KZ-15"
+ }
+]

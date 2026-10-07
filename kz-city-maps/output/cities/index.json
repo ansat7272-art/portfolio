@@ -1,0 +1,542 @@
+[
+ {
+  "slug": "Almaty",
+  "ru": "Алматы",
+  "kk": "Алматы",
+  "population": 2332400
+ },
+ {
+  "slug": "Shymkent",
+  "ru": "Шымкент",
+  "kk": "Шымкент",
+  "population": 1222055
+ },
+ {
+  "slug": "Astana",
+  "ru": "Астана",
+  "kk": "Астана",
+  "population": 814400
+ },
+ {
+  "slug": "Aktobe",
+  "ru": "Актобе",
+  "kk": "Ақтөбе",
+  "population": 570452
+ },
+ {
+  "slug": "Karaganda",
+  "ru": "Караганда",
+  "kk": "Қарағанды",
+  "population": 520486
+ },
+ {
+  "slug": "Taraz",
+  "ru": "Тараз",
+  "kk": "Тараз",
+  "population": 380200
+ },
+ {
+  "slug": "Ust-Kamenogorsk",
+  "ru": "Усть-Каменогорск",
+  "kk": "Өскемен",
+  "population": 354770
+ },
+ {
+  "slug": "Pavlodar",
+  "ru": "Павлодар",
+  "kk": "Павлодар",
+  "population": 334830
+ },
+ {
+  "slug": "Atyrau",
+  "ru": "Атырау",
+  "kk": "Атырау",
+  "population": 323295
+ },
+ {
+  "slug": "Semey",
+  "ru": "Семей",
+  "kk": "Семей",
+  "population": 310456
+ },
+ {
+  "slug": "Aktau",
+  "ru": "Актау",
+  "kk": "Ақтау",
+  "population": 273830
+ },
+ {
+  "slug": "Kostanay",
+  "ru": "Костанай",
+  "kk": "Қостанай",
+  "population": 264446
+ },
+ {
+  "slug": "Uralsk",
+  "ru": "Уральск",
+  "kk": "Орал",
+  "population": 256960
+ },
+ {
+  "slug": "Turkestan",
+  "ru": "Туркестан",
+  "kk": "Түркістан",
+  "population": 228003
+ },
+ {
+  "slug": "Petropavlovsk",
+  "ru": "Петропавловск",
+  "kk": "Петропавл",
+  "population": 222703
+ },
+ {
+  "slug": "Kyzylorda",
+  "ru": "Кызылорда",
+  "kk": "Қызылорда",
+  "population": 206719
+ },
+ {
+  "slug": "Temirtau",
+  "ru": "Темиртау",
+  "kk": "Теміртау",
+  "population": 181197
+ },
+ {
+  "slug": "Taldykorgan",
+  "ru": "Талдыкорган",
+  "kk": "Талдықорған",
+  "population": 169462
+ },
+ {
+  "slug": "Kokshetau",
+  "ru": "Кокшетау",
+  "kk": "Көкшетау",
+  "population": 146933
+ },
+ {
+  "slug": "Ekibastuz",
+  "ru": "Экибастуз",
+  "kk": "Екібастұз",
+  "population": 128551
+ },
+ {
+  "slug": "Rudnyy",
+  "ru": "Рудный",
+  "kk": "Рудный",
+  "population": 111908
+ },
+ {
+  "slug": "Zhezkazgan",
+  "ru": "Жезказган",
+  "kk": "Жезқазған",
+  "population": 101900
+ },
+ {
+  "slug": "Balkhash",
+  "ru": "Балхаш",
+  "kk": "Балқаш",
+  "population": 77000
+ },
+ {
+  "slug": "Zhanaozen",
+  "ru": "Жанаозен",
+  "kk": "Жаңаөзен",
+  "population": 75604
+ },
+ {
+  "slug": "Kentau",
+  "ru": "Кентау",
+  "kk": "Кентау",
+  "population": 74659
+ },
+ {
+  "slug": "Satpaev",
+  "ru": "Сатпаев",
+  "kk": "Сәтбаев",
+  "population": 68740
+ },
+ {
+  "slug": "Kulsary",
+  "ru": "Кульсары",
+  "kk": "Құлсары",
+  "population": 66580
+ },
+ {
+  "slug": "Kaskelen",
+  "ru": "Каскелен",
+  "kk": "Қаскелең",
+  "population": 64151
+ },
+ {
+  "slug": "Talgar",
+  "ru": "Талгар",
+  "kk": "Талғар",
+  "population": 63883
+ },
+ {
+  "slug": "Saryagash",
+  "ru": "Сарыагаш",
+  "kk": "Сарыағаш",
+  "population": 62215
+ },
+ {
+  "slug": "Konaev",
+  "ru": "Конаев",
+  "kk": "Қонаев",
+  "population": 56436
+ },
+ {
+  "slug": "Kosshy",
+  "ru": "Косшы",
+  "kk": "Қосшы",
+  "population": 55160
+ },
+ {
+  "slug": "Zharkent",
+  "ru": "Жаркент",
+  "kk": "Жаркент",
+  "population": 53144
+ },
+ {
+  "slug": "Arys",
+  "ru": "Арыс",
+  "kk": "Арыс",
+  "population": 52123
+ },
+ {
+  "slug": "Aksu",
+  "ru": "Аксу",
+  "kk": "Ақсу",
+  "population": 51728
+ },
+ {
+  "slug": "Stepnogorsk",
+  "ru": "Степногорск",
+  "kk": "Степногорск",
+  "population": 49116
+ },
+ {
+  "slug": "Ridder",
+  "ru": "Риддер",
+  "kk": "Риддер",
+  "population": 48008
+ },
+ {
+  "slug": "Shchuchinsk",
+  "ru": "Щучинск",
+  "kk": "Щучинск",
+  "population": 46744
+ },
+ {
+  "slug": "Shu",
+  "ru": "Шу",
+  "kk": "Шу",
+  "population": 45531
+ },
+ {
+  "slug": "Zhetysay",
+  "ru": "Жетысай",
+  "kk": "Жетісай",
+  "population": 44105
+ },
+ {
+  "slug": "Ayagoz",
+  "ru": "Аягоз",
+  "kk": "Аягөз",
+  "population": 42010
+ },
+ {
+  "slug": "Esik",
+  "ru": "Есик",
+  "kk": "Есік",
+  "population": 41517
+ },
+ {
+  "slug": "Shakhtinsk",
+  "ru": "Шахтинск",
+  "kk": "Шахтинск",
+  "population": 38961
+ },
+ {
+  "slug": "Aksay",
+  "ru": "Аксай",
+  "kk": "Ақсай",
+  "population": 38386
+ },
+ {
+  "slug": "Aral",
+  "ru": "Арал",
+  "kk": "Арал",
+  "population": 37183
+ },
+ {
+  "slug": "Altay",
+  "ru": "Алтай",
+  "kk": "Алтай",
+  "population": 35746
+ },
+ {
+  "slug": "Kandyagash",
+  "ru": "Кандыагаш",
+  "kk": "Қандыағаш",
+  "population": 35699
+ },
+ {
+  "slug": "Zhitikara",
+  "ru": "Житикара",
+  "kk": "Жітіқара",
+  "population": 35298
+ },
+ {
+  "slug": "Saran",
+  "ru": "Сарань",
+  "kk": "Саран",
+  "population": 34507
+ },
+ {
+  "slug": "Baykonur",
+  "ru": "Байконур",
+  "kk": "Байқоңыр",
+  "population": 33817
+ },
+ {
+  "slug": "Shardara",
+  "ru": "Шардара",
+  "kk": "Шардара",
+  "population": 32107
+ },
+ {
+  "slug": "Atbasar",
+  "ru": "Атбасар",
+  "kk": "Атбасар",
+  "population": 31434
+ },
+ {
+  "slug": "Lisakovsk",
+  "ru": "Лисаковск",
+  "kk": "Лисаков",
+  "population": 31178
+ },
+ {
+  "slug": "Tekeli",
+  "ru": "Текели",
+  "kk": "Текелі",
+  "population": 30179
+ },
+ {
+  "slug": "Tobyl",
+  "ru": "Тобыл",
+  "kk": "Тобыл",
+  "population": 28586
+ },
+ {
+  "slug": "Arkalyk",
+  "ru": "Аркалык",
+  "kk": "Арқалық",
+  "population": 28334
+ },
+ {
+  "slug": "Shalkar",
+  "ru": "Шалкар",
+  "kk": "Шалқар",
+  "population": 28088
+ },
+ {
+  "slug": "Karatau",
+  "ru": "Каратау",
+  "kk": "Қаратау",
+  "population": 27000
+ },
+ {
+  "slug": "Zhanatas",
+  "ru": "Жанатас",
+  "kk": "Жаңатас",
+  "population": 25693
+ },
+ {
+  "slug": "Abay",
+  "ru": "Абай",
+  "kk": "Абай",
+  "population": 25550
+ },
+ {
+  "slug": "Lenger",
+  "ru": "Ленгер",
+  "kk": "Леңгір",
+  "population": 25300
+ },
+ {
+  "slug": "Khromtau",
+  "ru": "Хромтау",
+  "kk": "Хромтау",
+  "population": 24700
+ },
+ {
+  "slug": "Alga",
+  "ru": "Алга",
+  "kk": "Алға",
+  "population": 22798
+ },
+ {
+  "slug": "Usharal",
+  "ru": "Ушарал",
+  "kk": "Үшарал",
+  "population": 21188
+ },
+ {
+  "slug": "Alatau",
+  "ru": "Алатау",
+  "kk": "Алатау",
+  "population": 20418
+ },
+ {
+  "slug": "Ushtobe",
+  "ru": "Уштобе",
+  "kk": "Үштөбе",
+  "population": 19243
+ },
+ {
+  "slug": "Zaysan",
+  "ru": "Зайсан",
+  "kk": "Зайсан",
+  "population": 18422
+ },
+ {
+  "slug": "Shemonaikha",
+  "ru": "Шемонаиха",
+  "kk": "Шемонаиха",
+  "population": 18365
+ },
+ {
+  "slug": "Makinsk",
+  "ru": "Макинск",
+  "kk": "Макинск",
+  "population": 18098
+ },
+ {
+  "slug": "Sarkan",
+  "ru": "Саркан",
+  "kk": "Сарқан",
+  "population": 17939
+ },
+ {
+  "slug": "Akkol",
+  "ru": "Акколь",
+  "kk": "Ақкөл",
+  "population": 16017
+ },
+ {
+  "slug": "Tayynsha",
+  "ru": "Тайынша",
+  "kk": "Тайынша",
+  "population": 13037
+ },
+ {
+  "slug": "Emba",
+  "ru": "Эмба",
+  "kk": "Ембі",
+  "population": 11720
+ },
+ {
+  "slug": "Esil",
+  "ru": "Есиль",
+  "kk": "Есіл",
+  "population": 11484
+ },
+ {
+  "slug": "Ereymentau",
+  "ru": "Ерейментау",
+  "kk": "Ерейментау",
+  "population": 11200
+ },
+ {
+  "slug": "Priozersk",
+  "ru": "Приозёрск",
+  "kk": "Приозёрск",
+  "population": 11153
+ },
+ {
+  "slug": "Kurchatov",
+  "ru": "Курчатов",
+  "kk": "Курчатов",
+  "population": 10348
+ },
+ {
+  "slug": "Fort-Shevchenko",
+  "ru": "Форт-Шевченко",
+  "kk": "Форт-Шевченко",
+  "population": 8778
+ },
+ {
+  "slug": "Karkaralinsk",
+  "ru": "Каркаралинск",
+  "kk": "Қарқаралы",
+  "population": 8764
+ },
+ {
+  "slug": "Bulaevo",
+  "ru": "Булаево",
+  "kk": "Булаев",
+  "population": 8550
+ },
+ {
+  "slug": "Karazhal",
+  "ru": "Каражал",
+  "kk": "Қаражал",
+  "population": 8180
+ },
+ {
+  "slug": "Sergeevka",
+  "ru": "Сергеевка",
+  "kk": "Сергеевка",
+  "population": 8112
+ },
+ {
+  "slug": "Shar",
+  "ru": "Шар",
+  "kk": "Шар",
+  "population": 8000
+ },
+ {
+  "slug": "Kazaly",
+  "ru": "Казалы",
+  "kk": "Қазалы",
+  "population": 7462
+ },
+ {
+  "slug": "Kenesary",
+  "ru": "Кенесары",
+  "kk": "Кенесары",
+  "population": 7097
+ },
+ {
+  "slug": "Serebryansk",
+  "ru": "Серебрянск",
+  "kk": "Серебрянск",
+  "population": 6989
+ },
+ {
+  "slug": "Mamlyutka",
+  "ru": "Мамлютка",
+  "kk": "Мәмлүт",
+  "population": 6944
+ },
+ {
+  "slug": "Stepnyak",
+  "ru": "Степняк",
+  "kk": "Степняк",
+  "population": 4212
+ },
+ {
+  "slug": "Temir",
+  "ru": "Темир",
+  "kk": "Темір",
+  "population": 2210
+ },
+ {
+  "slug": "Zhem",
+  "ru": "Жем",
+  "kk": "Жем",
+  "population": 1218
+ }
+]
