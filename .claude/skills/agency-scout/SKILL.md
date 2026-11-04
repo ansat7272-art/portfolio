@@ -17,6 +17,13 @@ description: >-
    (чтобы не добавить дубли — сверяй по `url`).
 
 ## Где искать (WebSearch / WebFetch, только открытые страницы)
+
+**Telegram — приоритет №1.** Публичные каналы читаются через веб-превью `https://t.me/s/<канал>`
+(нужен доступ к `t.me` в настройках сети). Список каналов — `agency/telegram-channels.md`;
+новые найденные каналы с заказами дописывай туда. Бери посты не старше 3 дней: в Telegram
+заказы закрываются за часы. В `url` пиши ссылку на сам пост (`https://t.me/<канал>/<id>`),
+в `notes` — контакт для отклика из поста (@username), если он есть.
+
 - Reddit: r/forhire, r/HungryArtists, r/gameDevClassifieds — только посты с тегом `[Hiring]`
 - Биржи с публичными листингами: Upwork, Freelancer, PeoplePerHour, Contra, Kwork, FL.ru, Weblancer
 - Арт-джоб-борды: Behance Jobs, Dribbble Jobs, ArtStation Jobs, Working Not Working
