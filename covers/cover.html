@@ -1,0 +1,109 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8">
+<style>@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(file:///tmp/claude-0/-home-user-portfolio/08b60b1e-d1d6-528b-96e8-a2a42fd985fb/scratchpad/fonts/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxTcwhsk.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(file:///tmp/claude-0/-home-user-portfolio/08b60b1e-d1d6-528b-96e8-a2a42fd985fb/scratchpad/fonts/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(file:///tmp/claude-0/-home-user-portfolio/08b60b1e-d1d6-528b-96e8-a2a42fd985fb/scratchpad/fonts/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxTcwhsk.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(file:///tmp/claude-0/-home-user-portfolio/08b60b1e-d1d6-528b-96e8-a2a42fd985fb/scratchpad/fonts/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(file:///tmp/claude-0/-home-user-portfolio/08b60b1e-d1d6-528b-96e8-a2a42fd985fb/scratchpad/fonts/Yq6W-LOTXCb04q32xlpwv8ZfrxE.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(file:///tmp/claude-0/-home-user-portfolio/08b60b1e-d1d6-528b-96e8-a2a42fd985fb/scratchpad/fonts/Yq6W-LOTXCb04q32xlpwu8Zf.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(file:///tmp/claude-0/-home-user-portfolio/08b60b1e-d1d6-528b-96e8-a2a42fd985fb/scratchpad/fonts/Yq6W-LOTXCb04q32xlpwv8ZfrxE.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(file:///tmp/claude-0/-home-user-portfolio/08b60b1e-d1d6-528b-96e8-a2a42fd985fb/scratchpad/fonts/Yq6W-LOTXCb04q32xlpwu8Zf.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:var(--w);height:var(--h);overflow:hidden;background:#080a0e}
+body{font-family:'Unbounded',sans-serif;color:#e8e4dc;position:relative}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(0,255,170,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(0,255,170,.06) 1px,transparent 1px);background-size:40px 40px;
+ mask-image:linear-gradient(90deg,transparent 0%,#000 35%,#000 100%)}
+.glow{position:absolute;border-radius:50%;filter:blur(90px)}
+.g1{width:620px;height:420px;background:rgba(0,255,170,.22);right:120px;top:-120px}
+.g2{width:420px;height:320px;background:rgba(124,92,255,.22);right:-80px;bottom:-160px}
+.wrap{position:relative;height:100%;display:flex;align-items:center;justify-content:space-between;padding:0 var(--pad)}
+.tag{font-family:'JetBrains Mono',monospace;font-size:var(--tag);letter-spacing:.18em;color:#00ffaa;text-transform:uppercase;display:flex;align-items:center;gap:12px;margin-bottom:var(--gap)}
+.tag i{width:10px;height:10px;border-radius:50%;background:#00ffaa;box-shadow:0 0 14px #00ffaa}
+h1{font-size:var(--h1);font-weight:800;line-height:1.02;letter-spacing:-.02em}
+h1 em{font-style:normal;color:#00ffaa}
+.sub{font-family:'JetBrains Mono',monospace;font-size:var(--sub);color:#a9b0b8;margin-top:var(--gap);line-height:1.5}
+.right{display:flex;flex-direction:column;gap:14px;align-items:flex-end}
+.chips{display:grid;grid-template-columns:repeat(2,auto);gap:12px}
+.chip{font-family:'JetBrains Mono',monospace;font-size:20px;padding:14px 20px;border:1px solid rgba(0,255,170,.28);background:rgba(8,10,14,.6);border-radius:10px;color:#e8e4dc;white-space:nowrap}
+.chip b{color:#00ffaa;font-weight:700;margin-right:10px}
+.cta{margin-top:8px;font-family:'Unbounded';font-weight:700;font-size:22px;background:#00ffaa;color:#06100c;padding:16px 26px;border-radius:12px}
+.frames{position:absolute;left:0;right:0;bottom:0;height:14px;display:flex;gap:10px;padding:0 var(--pad);opacity:.5}
+.frames span{flex:1;border-top:2px solid rgba(0,255,170,.35)}
+body.m .right{display:none}
+body.m .wrap{justify-content:flex-start}
+</style></head>
+<body class="CLS" style="--w:WWpx;--h:HHpx">
+<div class="grid"></div><div class="glow g1"></div><div class="glow g2"></div>
+<div class="wrap">
+ <div>
+  <div class="tag"><i></i>Доступен для проектов</div>
+  <h1>AI-дизайнер<br><em>&amp;</em> 2D-аниматор</h1>
+  <div class="sub">SUBTEXT</div>
+ </div>
+ <div class="right">
+  <div class="chips">
+   <div class="chip"><b>01</b>Персонажи и миры</div>
+   <div class="chip"><b>02</b>2D-анимация</div>
+   <div class="chip"><b>03</b>Ассеты для игр</div>
+   <div class="chip"><b>04</b>AI-контент под ключ</div>
+  </div>
+  <div class="cta">Напишите — обсудим проект →</div>
+ </div>
+</div>
+</body></html>
